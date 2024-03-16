@@ -1,0 +1,135 @@
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+
+}
+
+body,html 
+{
+width:100%;
+height:100%;
+}
+
+
+.main-container
+{
+width:100%;
+height:100%;
+
+}
+
+.form-container
+{
+    width:80%;
+    height:90%;
+    margin:2em 2em 2em 6em;
+    border:solid 2em #2f1c6a;
+    display: flex;
+    flex-direction:column;
+    align-items:space-evenly;
+    justify-content:flex-start;
+    background: linear-gradient(135deg,#00feba,#5b558c);
+    padding:3rem;
+    border-radius: 1rem;
+}
+.form-container h2
+{
+padding:1em;
+padding-left: 0px;
+}
+
+.personal_details
+{
+ width:80%;
+ height:80%;   
+display:flex;
+flex-direction:row;
+align-items:flex-start;
+justify-items:flex-start;
+flex-wrap:wrap;
+}
+#subheading
+{
+font-size: 1.2rem;
+margin-bottom:6px;
+font-weight: 200;
+}
+
+
+
+
+.naming_details
+{
+display: flex;
+flex-direction: row;
+align-items:center ;
+justify-items:flex-start ;
+gap:80px;
+
+}
+
+.Other_details
+{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-items:flex-start ;
+    gap:80px;
+
+}
+
+
+
+.Identity_Details
+{
+    width:80%;
+    height:100%;   
+   display:flex;
+   flex-direction:row;
+   align-items:flex-start;
+   justify-items:flex-start;
+   flex-wrap: wrap;
+   gap:5px;
+
+}
+
+
+.Identity_details .Other_details
+{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-items:flex-start ;
+    gap:80px;
+flex-wrap: wrap;
+}
+
+
+.inputarea
+{
+width :300px;
+height:50px;
+border-radius:7px;
+margin-top:8px;
+
+}
+
+
+#nextbutton
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:200px;
+    height:50px;
+    color:white;
+     font-size: large;
+     background-color: #2f1c6a;
+     border-radius: 7px;
+    
+
+
+
+}
